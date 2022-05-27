@@ -1,0 +1,8 @@
+rootProject.name = 'JVM'
+include 'CH1_intro'
+include 'CH2_memory'
+include 'CH3_running_data_area'
+include 'CH4_gc'
+include 'CH5_class_file'
+include 'CH6_optimize'
+

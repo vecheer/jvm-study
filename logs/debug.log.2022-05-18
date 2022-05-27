@@ -1,0 +1,17 @@
+2022-05-18 10:22:01  [ jack:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:22:01  [ tommy:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:22:01  [ jack:9 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 10:22:33  [ jack:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:22:33  [ tommy:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:22:33  [ jack:3 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 10:22:43  [ jack:10008 ] - [ INFO ]  jack thread down!!!!
+2022-05-18 10:22:43  [ tommy:10008 ] - [ INFO ]  tommy thread down!!!!
+2022-05-18 10:25:26  [ jack:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:25:26  [ tommy:0 ] - [ INFO ]  jack thread running
+2022-05-18 10:25:26  [ jack:0 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 10:25:36  [ jack:10013 ] - [ INFO ]  jack thread down!!!!
+2022-05-18 10:25:36  [ tommy:10013 ] - [ INFO ]  tommy thread down!!!!
+2022-05-18 10:30:47  [ main:0 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 10:54:25  [ main:0 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 10:55:05  [ main:0 ] - [ INFO ]  正在执行 clinit 方法
+2022-05-18 14:16:40  [ main:0 ] - [ INFO ]  A#<clinit> completed now

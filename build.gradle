@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'com.wyq'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+}
+
+
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+}
+
+
+subprojects{
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+    }
+
+    dependencies {
+        implementation 'org.projectlombok:lombok:1.18.12'
+        annotationProcessor 'org.projectlombok:lombok:1.18.12'
+        implementation 'log4j:log4j:1.2.17'
+        implementation 'junit:junit:4.4'
+        implementation 'org.openjdk.jol:jol-core:0.10'
+    }
+}
+

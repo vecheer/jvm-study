@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+group 'com.wyq'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
