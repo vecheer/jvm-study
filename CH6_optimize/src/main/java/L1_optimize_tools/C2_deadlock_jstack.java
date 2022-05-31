@@ -1,5 +1,6 @@
 package L1_optimize_tools;
 
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 
@@ -45,5 +46,7 @@ public class C2_deadlock_jstack {
                 }
             }
         },"yq-t2").start();
+
+        Objects.requireNonNull(new Object(),"?");
     }
 }
