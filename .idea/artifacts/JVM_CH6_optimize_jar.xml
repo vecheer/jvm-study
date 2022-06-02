@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JVM.CH6_optimize:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JVM_CH6_optimize_jar</output-path>
+    <root id="archive" name="JVM.CH6_optimize.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

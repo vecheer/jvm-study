@@ -1,0 +1,31 @@
+<build>
+        <plugins>
+            <!-- 将依赖一起打包 -->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <!--指定main方法所在的类-->
+                        <manifest>
+                            <mainClass>Test2</mainClass>
+                        </manifest>
+                    </archive>
+                    <!--descriptorRefs 表示 将依赖一并打包 -->
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <!--appendAssemblyId 表示 删除 fatjar 名称中的 jar-with-dependencies 后缀-->
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
+                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>

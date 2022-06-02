@@ -47,6 +47,5 @@ public class C2_deadlock_jstack {
             }
         },"yq-t2").start();
 
-        Objects.requireNonNull(new Object(),"?");
     }
 }
