@@ -2,6 +2,8 @@ package L7_compressedOop;
 
 import org.openjdk.jol.info.ClassLayout;
 
+
+// -XX:-UseCompressedOops  -XX:-UseCompressedClassPointers
 public class TestMain {
     public static void main(String[] args) {
         System.out.println("[-XX:-UseCompressedOops]关闭了指针压缩");

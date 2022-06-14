@@ -24,6 +24,7 @@ public class C2_deadlock_jstack {
         new Thread(()->{
             synchronized (holder1){
                 try {
+                    MemKiller killer = new MemKiller();
                     TimeUnit.SECONDS.sleep(3);
                     synchronized (holder2){
                         TimeUnit.SECONDS.sleep(1200);
@@ -37,6 +38,7 @@ public class C2_deadlock_jstack {
         new Thread(()->{
             synchronized (holder2){
                 try {
+                    MemKiller killer = new MemKiller();
                     TimeUnit.SECONDS.sleep(3);
                     synchronized (holder1){
                         TimeUnit.SECONDS.sleep(1200);
